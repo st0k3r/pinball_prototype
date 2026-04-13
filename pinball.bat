@@ -1,0 +1,1 @@
+start "" code "D:\Pico-8\cart\pinball_prototype"
