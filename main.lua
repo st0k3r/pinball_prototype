@@ -36,13 +36,14 @@ end
 lf_px, lf_py = 22, 112
 rf_px, rf_py = 106, 112
 fl = 22
+pi = 3.14
+
+function flp_mirror(a) return pi - a end
 
 lf_ang = 0.5
 rf_ang = flp_mirror(0.5)
 lf_target = 0.5
 rf_target = flp_mirror(0.5)
-
-function flp_mirror(a) return pi - a end
 
 function update_flippers()
   if btn(4) then
